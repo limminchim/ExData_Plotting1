@@ -118,7 +118,8 @@ plotGraph4 <- function() {
         legend("topright", 
                legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
                lwd=1,
-               col=c("black", "red", "blue"))
+               col=c("black", "red", "blue"),
+               bty="n")
         
         # plot 4.4
         with(df, plot(DateTime, 
