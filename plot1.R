@@ -84,7 +84,7 @@ plotGraph1 <- function() {
                       ylim = c(0,1300),
                       xlab = "Global Active Power (kilowatts)",
                       col = "red"))
-        dev.off()
+        #dev.off()
         
 }
 
